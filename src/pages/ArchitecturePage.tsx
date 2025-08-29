@@ -237,7 +237,7 @@ export function ArchitecturePage() {
               <div className="flex items-center space-x-3">
                 <Globe className="h-8 w-8 text-primary" />
                 <div>
-                  <h1 className="text-2xl font-bold text-gray-900 dark:text-white">AfricaLogi Platform</h1>
+                  <h1 className="text-2xl font-bold text-gray-900 dark:text-white">AfricaLogi</h1>
                   <p className="text-sm text-gray-500 dark:text-gray-400">Platform Architecture & Data Models</p>
                 </div>
               </div>
