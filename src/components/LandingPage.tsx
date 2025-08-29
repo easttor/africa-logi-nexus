@@ -17,7 +17,10 @@ import {
   Target,
   Star,
   UserPlus,
-  Truck
+  Truck,
+  Globe,
+  Server,
+  Database
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -396,6 +399,75 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
                 </Card>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Architecture Section */}
+      <section id="architecture" className="py-16 sm:py-20 lg:py-24 xl:py-32 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 sm:mb-4">
+              Platform Architecture
+            </h2>
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto px-4">
+              Discover the robust, scalable architecture powering Africa's most advanced logistics platform
+            </p>
+            <div className="mt-4 p-3 sm:p-4 bg-africalogi-gold/10 rounded-lg inline-block">
+              <p className="text-xs sm:text-sm font-medium text-africalogi-gold">
+                🏗️ Enterprise-Grade Cloud-Native Design
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-6xl mx-auto mb-8 sm:mb-12">
+            <div className="text-center p-4 sm:p-6 rounded-lg bg-white shadow-lg border border-border">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <Globe className="h-6 w-6 sm:h-8 sm:w-8 text-blue-500" />
+              </div>
+              <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2">Multi-Platform Access</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground mb-3">Web, mobile, and API interfaces</p>
+              <Badge variant="outline" className="text-xs">Live</Badge>
+            </div>
+
+            <div className="text-center p-4 sm:p-6 rounded-lg bg-white shadow-lg border border-border">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-indigo-500/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <Shield className="h-6 w-6 sm:h-8 sm:w-8 text-indigo-500" />
+              </div>
+              <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2">Security Layer</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground mb-3">Enterprise-grade protection</p>
+              <Badge variant="outline" className="text-xs">256-bit</Badge>
+            </div>
+
+            <div className="text-center p-4 sm:p-6 rounded-lg bg-white shadow-lg border border-border">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <Server className="h-6 w-6 sm:h-8 sm:w-8 text-green-500" />
+              </div>
+              <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2">Microservices</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground mb-3">Scalable business logic</p>
+              <Badge variant="outline" className="text-xs">Auto-scale</Badge>
+            </div>
+
+            <div className="text-center p-4 sm:p-6 rounded-lg bg-white shadow-lg border border-border">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-purple-500/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <Database className="h-6 w-6 sm:h-8 sm:w-8 text-purple-500" />
+              </div>
+              <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2">Data Layer</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground mb-3">High-performance storage</p>
+              <Badge variant="outline" className="text-xs">99.9% SLA</Badge>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <Button 
+              variant="africalogi-outline"
+              size="lg"
+              onClick={() => window.open('/architecture', '_blank')}
+              className="gap-3 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6"
+            >
+              View Full Architecture
+              <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
+            </Button>
           </div>
         </div>
       </section>
