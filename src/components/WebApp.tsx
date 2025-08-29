@@ -34,10 +34,19 @@ export function WebApp() {
   const ViewComponent = views[activeView as keyof typeof views] || Dashboard;
 
   return (
-    <div className="flex h-screen bg-background overflow-hidden">
+    <div className="flex h-screen bg-background overflow-hidden relative">
+      {/* Animated Background Logo */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
+        <img 
+          src="/img/africaLogi_logo.png" 
+          alt="AfricaLogi Background" 
+          className="w-96 h-96 object-contain opacity-40 animate-[float_6s_ease-in-out_infinite]"
+        />
+      </div>
+      
       <AppSidebar activeView={activeView} onViewChange={setActiveView} />
       
-      <main className="flex-1 overflow-y-auto">
+      <main className="flex-1 overflow-y-auto relative z-10">
         <ViewComponent />
       </main>
     </div>

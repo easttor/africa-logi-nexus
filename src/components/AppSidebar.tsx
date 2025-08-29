@@ -30,9 +30,7 @@ const navigationItems = [
   { id: "insurance", label: "Insurance Marketplace", icon: Shield },
   { id: "sustainability", label: "Sustainability Tracking", icon: Leaf },
   { id: "notifications", label: "Notifications", icon: Bell },
-  { id: "settings", label: "Settings", icon: Settings },
-  { id: "architecture", label: "Architecture", icon: Building2 },
-  { id: "roadmap", label: "Roadmap", icon: Map }
+  { id: "settings", label: "Settings", icon: Settings }
 ];
 
 export function AppSidebar({ activeView, onViewChange }: SidebarProps) {
