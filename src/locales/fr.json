@@ -1,0 +1,226 @@
+{
+  "common": {
+    "africaLogi": "AfricaLogi",
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus",
+    "viewDemo": "Voir la démo",
+    "contact": "Contact",
+    "features": "Fonctionnalités",
+    "pricing": "Tarification",
+    "roadmap": "Feuille de route",
+    "userGuide": "Guide utilisateur",
+    "backToHome": "Retour à l'accueil",
+    "home": "Accueil",
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "view": "Voir",
+    "download": "Télécharger",
+    "upload": "Téléverser"
+  },
+  "navigation": {
+    "dashboard": "Tableau de bord",
+    "marketplace": "Place de marché numérique",
+    "documents": "Gestion des documents",
+    "payments": "Paiements sécurisés",
+    "analytics": "Analyses et rapports",
+    "finance": "Finance commerciale",
+    "insurance": "Place de marché d'assurance",
+    "sustainability": "Suivi de la durabilité",
+    "notifications": "Notifications",
+    "settings": "Paramètres",
+    "architecture": "Architecture",
+    "roadmap": "Feuille de route"
+  },
+  "landing": {
+    "hero": {
+      "badge": "🌍 Dessert maintenant 54 pays africains",
+      "title": "Unifier la chaîne d'approvisionnement de l'Afrique",
+      "subtitle": "La première plateforme logistique unifiée du continent connectant commerçants, transporteurs et fournisseurs de services à travers les marchés africains en croissance.",
+      "cta": "Voir la démo en direct",
+      "secondaryCta": "En savoir plus"
+    },
+    "features": {
+      "title": "Une centrale tout-en-un",
+      "subtitle": "Tout ce dont vous avez besoin pour gérer, optimiser et développer vos opérations logistiques à travers l'Afrique.",
+      "smartDashboard": {
+        "title": "Tableau de bord intelligent",
+        "description": "Aperçus et analyses en temps réel pour vos opérations logistiques à travers l'Afrique."
+      },
+      "marketplace": {
+        "title": "Place de marché numérique",
+        "description": "Connectez-vous avec des transporteurs de confiance et trouvez les meilleurs tarifs pour vos expéditions."
+      },
+      "documents": {
+        "title": "Gestion des documents",
+        "description": "Rationalisez les douanes et la conformité avec le traitement numérique des documents."
+      },
+      "payments": {
+        "title": "Paiements sécurisés",
+        "description": "Traitement des paiements sûr et rapide avec support multi-devises."
+      },
+      "analytics": {
+        "title": "Analyses et rapports",
+        "description": "Aperçus basés sur les données pour optimiser les performances de votre chaîne d'approvisionnement."
+      },
+      "finance": {
+        "title": "Finance commerciale",
+        "description": "Accédez au capital de travail et aux solutions de financement pour vos expéditions."
+      },
+      "insurance": {
+        "title": "Place de marché d'assurance",
+        "description": "Protection complète des cargaisons des principaux assureurs africains."
+      },
+      "sustainability": {
+        "title": "Suivi de la durabilité",
+        "description": "Surveillez et réduisez votre impact environnemental avec la logistique verte."
+      }
+    },
+    "roadmap": {
+      "title": "Feuille de route de développement de 6 mois",
+      "subtitle": "Calendrier accéléré pour lancer la première plateforme logistique d'Afrique en seulement 6 mois",
+      "targetLaunch": "🚀 Lancement cible : {date}",
+      "phase1": "Mois 1-2",
+      "phase2": "Mois 3",
+      "phase3": "Mois 4-5",
+      "phase4": "Mois 6",
+      "foundation": "Fondation et MVP",
+      "coreFeatures": "Fonctionnalités principales",
+      "advancedFeatures": "Fonctionnalités avancées",
+      "productionLaunch": "Lancement en production",
+      "complete": "✅ Terminé",
+      "active": "🚧 En cours",
+      "planned": "📋 Planifié",
+      "launch": "🚀 Lancement",
+      "viewFullRoadmap": "Voir la feuille de route complète de 6 mois"
+    },
+    "userJourney": {
+      "title": "Guide complet du parcours utilisateur",
+      "subtitle": "Instructions étape par étape pour passer de l'inscription à l'utilisation réussie de la plateforme",
+      "phase1": "Phase 1 : Intégration",
+      "phase2": "Phase 2-3 : Opérations",
+      "phase3": "Phase 4 : Optimisation",
+      "onboarding": "Configuration et vérification du compte",
+      "operations": "Utilisation principale de la plateforme",
+      "optimization": "Analyses et amélioration",
+      "accountRegistration": "• Inscription du compte",
+      "profileSetup": "• Configuration et vérification du profil",
+      "platformOrientation": "• Orientation de la plateforme",
+      "loadManagement": "• Gestion des charges",
+      "realTimeTracking": "• Suivi en temps réel",
+      "paymentProcessing": "• Traitement des paiements",
+      "performanceAnalytics": "• Analyses de performance",
+      "continuousImprovement": "• Amélioration continue",
+      "scaleOperations": "• Développer les opérations",
+      "viewCompleteGuide": "Voir le guide complet"
+    },
+    "pricing": {
+      "title": "Tarification simple et transparente",
+      "subtitle": "Choisissez le plan qui correspond aux besoins de votre entreprise. Aucuns frais cachés, aucune surprise.",
+      "starter": "Débutant",
+      "professional": "Professionnel",
+      "enterprise": "Entreprise",
+      "free": "Gratuit",
+      "month": "/mois",
+      "custom": "Personnalisé",
+      "starterDesc": "Parfait pour les petites entreprises qui commencent",
+      "professionalDesc": "Idéal pour les opérations logistiques en croissance",
+      "enterpriseDesc": "Solutions personnalisées pour les grandes organisations",
+      "mostPopular": "Le plus populaire",
+      "getStarted": "Commencer",
+      "startFreeTrial": "Commencer l'essai gratuit",
+      "contactSales": "Contacter les ventes",
+      "features": {
+        "shipments5": "Jusqu'à 5 expéditions par mois",
+        "basicDashboard": "Accès au tableau de bord de base",
+        "standardSupport": "Support standard",
+        "essentialDocs": "Outils de documentation essentiels",
+        "unlimitedShipments": "Expéditions illimitées",
+        "advancedAnalytics": "Analyses avancées",
+        "prioritySupport": "Support prioritaire",
+        "fullDocManagement": "Gestion complète des documents",
+        "tradeFinance": "Accès au financement commercial",
+        "insuranceMarketplace": "Place de marché d'assurance",
+        "customIntegrations": "Intégrations personnalisées",
+        "dedicatedManager": "Gestionnaire de compte dédié",
+        "whiteLabel": "Options de marque blanche",
+        "advancedAPI": "Accès API avancé",
+        "phoneSupport": "Support téléphonique 24/7"
+      }
+    },
+    "cta": {
+      "title": "Prêt à transformer votre logistique ?",
+      "subtitle": "Rejoignez des milliers d'entreprises qui utilisent déjà AfricaLogi pour rationaliser leurs opérations de chaîne d'approvisionnement.",
+      "getStarted": "Commencer maintenant",
+      "viewDemo": "Voir la démo"
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "subtitle": "Bienvenue dans votre centre de commande AfricaLogi",
+    "kpis": {
+      "onTimeDeliveries": "Livraisons à temps",
+      "activeShipments": "Expéditions actives",
+      "pendingActions": "Actions en attente",
+      "fromLastMonth": "+2,1% par rapport au mois dernier",
+      "acrossCountries": "Dans 12 pays",
+      "requiringAttention": "Nécessitant une attention"
+    },
+    "liveMap": {
+      "title": "Vue de la carte en direct",
+      "comingSoon": "Carte interactive à venir",
+      "description": "Suivi en temps réel des expéditions à travers l'Afrique"
+    }
+  },
+  "roadmap": {
+    "title": "Feuille de route de développement de 6 mois",
+    "subtitle": "Calendrier de développement accéléré pour lancer la première plateforme logistique d'Afrique en seulement 6 mois",
+    "targetLaunch": "🚀 Date de lancement cible : {date}",
+    "phases": {
+      "phase1": "Fondation et MVP (Mois 1-2)",
+      "phase2": "Fonctionnalités principales (Mois 2-3)",
+      "phase3": "Fonctionnalités avancées (Mois 4-5)",
+      "phase4": "Développement et lancement (Mois 5-6)"
+    },
+    "status": {
+      "completed": "✅ Terminé avec succès",
+      "inProgress": "🚧 Actuellement en développement",
+      "planned": "📋 Prêt pour le développement",
+      "future": "🔮 Phase de planification future"
+    },
+    "tabs": {
+      "timeline": "Calendrier de développement",
+      "milestones": "Jalons clés",
+      "metrics": "Métriques de succès"
+    }
+  },
+  "userJourney": {
+    "title": "Guide complet du parcours utilisateur",
+    "subtitle": "Guide étape par étape pour utiliser la plateforme AfricaLogi de l'inscription aux opérations réussies",
+    "tabs": {
+      "journey": "Parcours utilisateur",
+      "userTypes": "Types d'utilisateurs",
+      "mobile": "Application mobile",
+      "tips": "Conseils pro"
+    },
+    "phases": {
+      "onboarding": "Phase 1 : Intégration",
+      "coreOperations": "Phase 2 : Opérations principales",
+      "execution": "Phase 3 : Exécution et surveillance",
+      "completion": "Phase 4 : Finalisation et optimisation"
+    },
+    "userTypes": {
+      "shipper": "Expéditeur (Propriétaire de cargaison)",
+      "carrier": "Transporteur (Fournisseur de transport)",
+      "broker": "Courtier de fret",
+      "shipperDesc": "Entreprises et particuliers qui ont besoin de transporter des marchandises",
+      "carrierDesc": "Propriétaires de camions, entreprises logistiques et opérateurs de transport",
+      "brokerDesc": "Intermédiaires qui connectent expéditeurs et transporteurs"
+    }
+  }
+}

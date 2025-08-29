@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #00764B);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #C3A466);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 118, 75, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-2px);
+}
+
+.read-the-docs {
+  color: #00764B;
+  font-weight: 500;
+}
+
+/* African Union inspired accent colors */
+.african-green {
+  color: #00764B;
+}
+
+.african-gold {
+  color: #C3A466;
+}
+
+.african-red {
+  color: #951F39;
+}
+
+/* Gradient backgrounds */
+.gradient-african {
+  background: linear-gradient(135deg, #00764B 0%, #C3A466 100%);
+}
+
+.gradient-african-subtle {
+  background: linear-gradient(135deg, #00764B 0%, #951F39 100%);
+}

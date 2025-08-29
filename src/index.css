@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import './african-union-theme.css';
+
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind base;
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind components;
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind utilities;
+
+/* AfricaLogi Design System - Using African Union Logo Colors */
+
+@layer base {
+  :root {
+    /* Base Colors - African Union inspired */
+    --background: 0 0% 100%;
+    --foreground: 210 20% 15%;
+    
+    /* Card & Surface Colors */
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 15%;
+    
+    /* Popover Colors */
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 15%;
+    
+    /* Primary Brand - African Union Green */
+    --primary: 160 100% 23%; /* #00764B */
+    --primary-foreground: 0 0% 100%;
+    
+    /* African Union Brand Colors from Logo */
+    --africalogi-green: 160 100% 23%; /* #00764B */
+    --africalogi-green-foreground: 0 0% 100%;
+    --africalogi-gold: 38 45% 58%; /* #C3A466 */
+    --africalogi-gold-foreground: 210 20% 15%;
+    --africalogi-red: 340 66% 36%; /* #951F39 */
+    --africalogi-red-foreground: 0 0% 100%;
+    
+    /* Sidebar Colors - African Union Green */
+    --sidebar-background: 160 100% 23%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 38 45% 58%;
+    --sidebar-primary-foreground: 210 20% 15%;
+    --sidebar-accent: 160 100% 30%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 160 100% 30%;
+    
+    /* Secondary Colors */
+    --secondary: 160 100% 96%;
+    --secondary-foreground: 160 100% 23%;
+    
+    /* Muted Colors */
+    --muted: 160 100% 96%;
+    --muted-foreground: 160 100% 30%;
+    
+    /* Accent Colors */
+    --accent: 160 100% 96%;
+    --accent-foreground: 160 100% 23%;
+    
+    /* Destructive Colors - Using African Union Red */
+    --destructive: 340 66% 36%;
+    --destructive-foreground: 0 0% 100%;
+    
+    /* Success Colors - Using African Union Green */
+    --success: 160 100% 23%;
+    --success-foreground: 0 0% 100%;
+    
+    /* Warning Colors - Using African Union Gold */
+    --warning: 38 45% 58%;
+    --warning-foreground: 210 20% 15%;
+    
+    /* Border & Input */
+    --border: 160 100% 90%;
+    --input: 160 100% 90%;
+    --ring: 160 100% 23%;
+    
+    /* Gradients */
+    --gradient-africalogi: linear-gradient(135deg, hsl(var(--africalogi-green)), hsl(var(--africalogi-gold)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--africalogi-green)) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
+    
+    /* Shadows */
+    --shadow-africalogi: 0 10px 30px -10px hsl(var(--africalogi-green) / 0.3);
+    --shadow-elegant: 0 4px 20px -4px hsl(var(--primary) / 0.15);
+    
+    /* Radius */
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 160 100% 23%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 160 100% 20%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 160 100% 20%;
+    --muted-foreground: 160 100% 80%;
+
+    --accent: 160 100% 20%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 340 66% 36%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 160 100% 20%;
+    --input: 160 100% 20%;
+    --ring: 160 100% 40%;
+    
+    --sidebar-background: 160 100% 23%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 38 45% 58%;
+    --sidebar-primary-foreground: 210 20% 15%;
+    --sidebar-accent: 160 100% 30%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 160 100% 30%;
+    --sidebar-ring: 160 100% 40%;
+  }
+}
+
+@layer base {
+  * {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply border-border;
+  }
+
+  body {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply bg-background text-foreground font-inter antialiased;
+  }
+}
+
+@layer components {
+  /* AfricaLogi Component Styles */
+  .fade-in {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply animate-in fade-in-0 duration-300;
+  }
+  
+  .slide-in-right {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply animate-in slide-in-from-right-4 duration-300;
+  }
+  
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+  
+  .africalogi-gradient {
+    background: var(--gradient-africalogi);
+  }
+  
+  .shadow-africalogi {
+    box-shadow: var(--shadow-africalogi);
+  }
+  
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+  
+  /* Smooth scroll for navigation */
+  html {
+    scroll-behavior: smooth;
+  }
+}

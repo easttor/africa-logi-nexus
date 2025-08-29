@@ -1,0 +1,226 @@
+{
+  "common": {
+    "africaLogi": "AfricaLogi",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "viewDemo": "View Demo",
+    "contact": "Contact",
+    "features": "Features",
+    "pricing": "Pricing",
+    "roadmap": "Roadmap",
+    "userGuide": "User Guide",
+    "backToHome": "Back to Home",
+    "home": "Home",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "marketplace": "Digital Marketplace",
+    "documents": "Document Management",
+    "payments": "Secure Payments",
+    "analytics": "Analytics & Reporting",
+    "finance": "Trade Finance",
+    "insurance": "Insurance Marketplace",
+    "sustainability": "Sustainability Tracking",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "architecture": "Architecture",
+    "roadmap": "Roadmap"
+  },
+  "landing": {
+    "hero": {
+      "badge": "🌍 Now serving 54 African countries",
+      "title": "Unifying Africa's Supply Chain",
+      "subtitle": "The continent's first unified logistics platform connecting traders, carriers, and service providers across Africa's growing markets.",
+      "cta": "View Live Demo",
+      "secondaryCta": "Learn More"
+    },
+    "features": {
+      "title": "An All-in-One Powerhouse",
+      "subtitle": "Everything you need to manage, optimize, and scale your logistics operations across Africa.",
+      "smartDashboard": {
+        "title": "Smart Dashboard",
+        "description": "Real-time insights and analytics for your logistics operations across Africa."
+      },
+      "marketplace": {
+        "title": "Digital Marketplace",
+        "description": "Connect with trusted carriers and find the best rates for your shipments."
+      },
+      "documents": {
+        "title": "Document Management",
+        "description": "Streamline customs and compliance with digital document processing."
+      },
+      "payments": {
+        "title": "Secure Payments",
+        "description": "Safe and fast payment processing with multiple currency support."
+      },
+      "analytics": {
+        "title": "Analytics & Reporting",
+        "description": "Data-driven insights to optimize your supply chain performance."
+      },
+      "finance": {
+        "title": "Trade Finance",
+        "description": "Access working capital and financing solutions for your shipments."
+      },
+      "insurance": {
+        "title": "Insurance Marketplace",
+        "description": "Comprehensive cargo protection from leading African insurers."
+      },
+      "sustainability": {
+        "title": "Sustainability Tracking",
+        "description": "Monitor and reduce your environmental impact with green logistics."
+      }
+    },
+    "roadmap": {
+      "title": "6-Month Development Journey",
+      "subtitle": "Accelerated timeline to launch Africa's premier logistics platform in just 6 months",
+      "targetLaunch": "🚀 Target Launch: {date}",
+      "phase1": "Month 1-2",
+      "phase2": "Month 3",
+      "phase3": "Month 4-5",
+      "phase4": "Month 6",
+      "foundation": "Foundation & MVP",
+      "coreFeatures": "Core Features",
+      "advancedFeatures": "Advanced Features",
+      "productionLaunch": "Production Launch",
+      "complete": "✅ Complete",
+      "active": "🚧 Active",
+      "planned": "📋 Planned",
+      "launch": "🚀 Launch",
+      "viewFullRoadmap": "View Full 6-Month Roadmap"
+    },
+    "userJourney": {
+      "title": "Complete User Journey Guide",
+      "subtitle": "Step-by-step instructions to get you from registration to successful platform usage",
+      "phase1": "Phase 1: Onboarding",
+      "phase2": "Phase 2-3: Operations",
+      "phase3": "Phase 4: Optimization",
+      "onboarding": "Account setup and verification",
+      "operations": "Core platform usage",
+      "optimization": "Analytics and improvement",
+      "accountRegistration": "• Account registration",
+      "profileSetup": "• Profile setup & verification",
+      "platformOrientation": "• Platform orientation",
+      "loadManagement": "• Load management",
+      "realTimeTracking": "• Real-time tracking",
+      "paymentProcessing": "• Payment processing",
+      "performanceAnalytics": "• Performance analytics",
+      "continuousImprovement": "• Continuous improvement",
+      "scaleOperations": "• Scale operations",
+      "viewCompleteGuide": "View Complete User Guide"
+    },
+    "pricing": {
+      "title": "Simple, Transparent Pricing",
+      "subtitle": "Choose the plan that fits your business needs. No hidden fees, no surprises.",
+      "starter": "Starter",
+      "professional": "Professional",
+      "enterprise": "Enterprise",
+      "free": "Free",
+      "month": "/month",
+      "custom": "Custom",
+      "starterDesc": "Perfect for small businesses getting started",
+      "professionalDesc": "Ideal for growing logistics operations",
+      "enterpriseDesc": "Tailored solutions for large organizations",
+      "mostPopular": "Most Popular",
+      "getStarted": "Get Started",
+      "startFreeTrial": "Start Free Trial",
+      "contactSales": "Contact Sales",
+      "features": {
+        "shipments5": "Up to 5 shipments per month",
+        "basicDashboard": "Basic dashboard access",
+        "standardSupport": "Standard support",
+        "essentialDocs": "Essential documentation tools",
+        "unlimitedShipments": "Unlimited shipments",
+        "advancedAnalytics": "Advanced analytics",
+        "prioritySupport": "Priority support",
+        "fullDocManagement": "Full document management",
+        "tradeFinance": "Trade finance access",
+        "insuranceMarketplace": "Insurance marketplace",
+        "customIntegrations": "Custom integrations",
+        "dedicatedManager": "Dedicated account manager",
+        "whiteLabel": "White-label options",
+        "advancedAPI": "Advanced API access",
+        "phoneSupport": "24/7 phone support"
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Logistics?",
+      "subtitle": "Join thousands of businesses already using AfricaLogi to streamline their supply chain operations.",
+      "getStarted": "Get Started Now",
+      "viewDemo": "View Demo"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Welcome to your AfricaLogi command center",
+    "kpis": {
+      "onTimeDeliveries": "On-Time Deliveries",
+      "activeShipments": "Active Shipments",
+      "pendingActions": "Pending Actions",
+      "fromLastMonth": "+2.1% from last month",
+      "acrossCountries": "Across 12 countries",
+      "requiringAttention": "Requiring attention"
+    },
+    "liveMap": {
+      "title": "Live Map View",
+      "comingSoon": "Interactive Map Coming Soon",
+      "description": "Real-time tracking of shipments across Africa"
+    }
+  },
+  "roadmap": {
+    "title": "6-Month Development Roadmap",
+    "subtitle": "Accelerated development timeline to launch Africa's premier logistics platform in just 6 months",
+    "targetLaunch": "🚀 Target Launch Date: {date}",
+    "phases": {
+      "phase1": "Foundation & MVP (Month 1-2)",
+      "phase2": "Core Features (Month 2-3)",
+      "phase3": "Advanced Features (Month 4-5)",
+      "phase4": "Scale & Launch (Month 5-6)"
+    },
+    "status": {
+      "completed": "✅ Completed successfully",
+      "inProgress": "🚧 Currently in development",
+      "planned": "📋 Ready for development",
+      "future": "🔮 Future planning phase"
+    },
+    "tabs": {
+      "timeline": "Development Timeline",
+      "milestones": "Key Milestones",
+      "metrics": "Success Metrics"
+    }
+  },
+  "userJourney": {
+    "title": "Complete User Journey Guide",
+    "subtitle": "Step-by-step guide to using AfricaLogi platform from registration to successful operations",
+    "tabs": {
+      "journey": "User Journey",
+      "userTypes": "User Types",
+      "mobile": "Mobile App",
+      "tips": "Pro Tips"
+    },
+    "phases": {
+      "onboarding": "Phase 1: Onboarding",
+      "coreOperations": "Phase 2: Core Operations",
+      "execution": "Phase 3: Execution & Monitoring",
+      "completion": "Phase 4: Completion & Optimization"
+    },
+    "userTypes": {
+      "shipper": "Shipper (Cargo Owner)",
+      "carrier": "Carrier (Transport Provider)",
+      "broker": "Freight Broker",
+      "shipperDesc": "Businesses and individuals who need to transport goods",
+      "carrierDesc": "Truck owners, logistics companies, and transport operators",
+      "brokerDesc": "Intermediaries who connect shippers with carriers"
+    }
+  }
+}

@@ -1,0 +1,250 @@
+/* African Union Theme - Custom CSS Classes */
+
+/* Color Utility Classes */
+.text-au-green { color: #00764B; }
+.text-au-gold { color: #C3A466; }
+.text-au-red { color: #951F39; }
+.bg-au-green { background-color: #00764B; }
+.bg-au-gold { background-color: #C3A466; }
+.bg-au-red { background-color: #951F39; }
+
+/* Gradient Backgrounds */
+.bg-gradient-au-primary { background: linear-gradient(135deg, #00764B 0%, #C3A466 100%); }
+.bg-gradient-au-secondary { background: linear-gradient(135deg, #C3A466 0%, #951F39 100%); }
+.bg-gradient-au-hero { background: linear-gradient(135deg, #00764B 0%, #C3A466 50%, #951F39 100%); }
+
+/* Card Enhancements */
+.card-au-theme {
+  border: 2px solid #00764B;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 118, 75, 0.1);
+  transition: all 0.3s ease;
+}
+.card-au-theme:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 118, 75, 0.2);
+  border-color: #C3A466;
+}
+
+/* Button Enhancements */
+.btn-au-primary {
+  background: linear-gradient(135deg, #00764B 0%, #005a3a 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 118, 75, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-au-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 118, 75, 0.4);
+  background: linear-gradient(135deg, #005a3a 0%, #004d2e 100%);
+}
+
+.btn-au-secondary {
+  background: linear-gradient(135deg, #C3A466 0%, #b08f4a 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 15px rgba(195, 164, 102, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-au-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(195, 164, 102, 0.4);
+  background: linear-gradient(135deg, #b08f4a 0%, #9a7a3d 100%);
+}
+
+/* Navigation Enhancements */
+.nav-au-active {
+  background: linear-gradient(135deg, #00764B 0%, #C3A466 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 118, 75, 0.4);
+}
+.nav-au-hover:hover {
+  background: rgba(0, 118, 75, 0.1);
+  color: #00764B;
+  transform: translateX(4px);
+}
+
+/* Sidebar-specific navigation styles (FIXED HOVER ISSUE) */
+.sidebar-nav-item {
+  color: white !important;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  position: relative;
+}
+.sidebar-nav-item:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #C3A466 !important; /* Gold text on hover */
+  transform: translateX(4px);
+  border-color: rgba(195, 164, 102, 0.4);
+}
+.sidebar-nav-item.active {
+  background: linear-gradient(135deg, #00764B 0%, #C3A466 100%);
+  color: white !important;
+  box-shadow: 0 4px 12px rgba(0, 118, 75, 0.4);
+  border-color: rgba(195, 164, 102, 0.6);
+}
+
+/* Sidebar logo and branding */
+.sidebar-logo {
+  color: white !important;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.sidebar-logo:hover {
+  color: #C3A466 !important;
+  transform: scale(1.05);
+}
+
+/* Sidebar user profile */
+.sidebar-user-profile {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white !important;
+  backdrop-filter: blur(10px);
+}
+.sidebar-user-profile:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(195, 164, 102, 0.5);
+  transform: translateY(-1px);
+}
+
+/* Sidebar container styling */
+.sidebar-container {
+  background: linear-gradient(180deg, #00764B 0%, #005a3a 100%);
+  border-right: 2px solid #C3A466;
+}
+.sidebar-container * {
+  color: white;
+}
+.sidebar-container .text-sidebar-foreground {
+  color: white !important;
+}
+.sidebar-border {
+  border-color: rgba(195, 164, 102, 0.3) !important;
+}
+
+/* Status Indicators */
+.status-au-success {
+  background: linear-gradient(135deg, #00764B 0%, #00a86b 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 118, 75, 0.3);
+}
+.status-au-warning {
+  background: linear-gradient(135deg, #C3A466 0%, #d4b876 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 2px 8px rgba(195, 164, 102, 0.3);
+}
+.status-au-error {
+  background: linear-gradient(135deg, #951F39 0%, #b02447 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 2px 8px rgba(149, 31, 57, 0.3);
+}
+
+/* Text Gradients */
+.text-gradient-au {
+  background: linear-gradient(135deg, #00764B 0%, #C3A466 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Shadows */
+.shadow-africalogi {
+  box-shadow: 0 10px 30px -10px rgba(0, 118, 75, 0.3);
+}
+.shadow-elegant {
+  box-shadow: 0 4px 20px -4px rgba(0, 118, 75, 0.15);
+}
+
+/* Responsive Utilities */
+@media (max-width: 640px) {
+  .card-au-theme {
+    border-width: 1px;
+    border-radius: 8px;
+  }
+  
+  .btn-au-primary,
+  .btn-au-secondary {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .sidebar-nav-item:hover {
+    transform: translateX(2px);
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar-container {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .sidebar-nav-item {
+    padding: 0.75rem 1rem;
+  }
+}
+
+/* Animation Classes */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.slide-in-up {
+  animation: slideInUp 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hover Effects */
+.hover-lift:hover {
+  transform: translateY(-4px);
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Focus States for Accessibility */
+.btn-au-primary:focus,
+.btn-au-secondary:focus,
+.sidebar-nav-item:focus {
+  outline: 2px solid #C3A466;
+  outline-offset: 2px;
+}
+
+/* Loading States */
+.loading-spinner {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #00764B;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
