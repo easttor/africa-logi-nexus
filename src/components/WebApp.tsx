@@ -40,7 +40,7 @@ export function WebApp() {
         <img 
           src="/img/africaLogi_logo.png" 
           alt="AfricaLogi Background" 
-          className="w-96 h-96 object-contain opacity-40 animate-[float_6s_ease-in-out_infinite]"
+          className="w-96 h-96 object-contain opacity-20 animate-[float_6s_ease-in-out_infinite]"
         />
       </div>
       
