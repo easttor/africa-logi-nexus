@@ -234,13 +234,18 @@ export function ArchitecturePage() {
                 <ArrowLeft className="h-4 w-4" />
                 Back
               </Button>
-              <div className="flex items-center space-x-3">
-                <Globe className="h-8 w-8 text-primary" />
-                <div>
-                  <h1 className="text-2xl font-bold text-gray-900 dark:text-white">AfricaLogi</h1>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Platform Architecture & Data Models</p>
-                </div>
-              </div>
+              
+            {/* Logo */}
+            <div className="flex items-center gap-3">
+              <img 
+                src="/img/africaLogi_logo.png" 
+                alt="AfricaLogi" 
+                className="h-10 w-10 object-contain"
+              />
+              <span className="text-xl font-bold text-foreground">
+                AfricaLogi
+              </span>
+            </div>
             </div>
             <div className="flex items-center space-x-4">
 
