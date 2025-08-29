@@ -243,22 +243,7 @@ export function ArchitecturePage() {
               </div>
             </div>
             <div className="flex items-center space-x-4">
-              <Button 
-                onClick={() => setIsCompactMode(!isCompactMode)} 
-                variant={isCompactMode ? "default" : "outline"}
-                className="gap-2"
-              >
-                {isCompactMode ? "📏" : "📐"}
-                {isCompactMode ? "Standard Layout" : "Compact Layout"}
-              </Button>
-              <Button 
-                onClick={exportToPDF} 
-                className="gap-2"
-                id="export-pdf-button"
-              >
-                <Download className="h-4 w-4" />
-                Export as PDF
-              </Button>
+
             </div>
           </div>
         </div>
