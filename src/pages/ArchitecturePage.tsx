@@ -272,11 +272,18 @@ export function ArchitecturePage() {
             
             {/* Header Section */}
             <div className={`text-center ${isCompactMode ? 'mb-4' : 'mb-6'}`}>
-              <div className="inline-flex items-center gap-3 bg-white dark:bg-gray-800 px-6 py-3 rounded-full shadow-lg border border-blue-200 dark:border-blue-700">
-                <Globe className="h-8 w-8 text-primary" />
-                <h2 className="text-2xl font-bold text-primary">AfricaLogi Platform</h2>
-                <Badge variant="outline" className="text-sm">v2.0</Badge>
-              </div>
+              
+            {/* Logo */}
+            <div className="flex items-center gap-3">
+              <img 
+                src="/img/africaLogi_logo.png" 
+                alt="AfricaLogi" 
+                className="h-10 w-10 object-contain"
+              />
+              <span className="text-xl font-bold text-foreground">
+                AfricaLogi
+              </span>
+            </div>
               <p className="text-muted-foreground mt-3 text-lg">Enterprise-Grade Logistics Management System</p>
             </div>
 
