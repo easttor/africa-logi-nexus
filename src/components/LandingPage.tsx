@@ -145,7 +145,15 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background relative">
+      {/* Animated Background Logo */}
+      <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-0">
+        <img 
+          src="/img/africaLogi_logo.png" 
+          alt="AfricaLogi Background" 
+          className="w-96 h-96 object-contain opacity-40 animate-[float_6s_ease-in-out_infinite]"
+        />
+      </div>
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -170,18 +178,6 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
                 className="text-sm xl:text-base text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap"
               >
                 {t('common.features')}
-              </button>
-              <button 
-                onClick={() => scrollToSection('roadmap')}
-                className="text-sm xl:text-base text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap"
-              >
-                {t('common.roadmap')}
-              </button>
-              <button 
-                onClick={() => scrollToSection('user-journey')}
-                className="text-sm xl:text-base text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap"
-              >
-                {t('common.userGuide')}
               </button>
               <button 
                 onClick={() => scrollToSection('pricing')}
@@ -244,20 +240,6 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
                     className="flex items-center justify-between px-3 py-3 text-base font-medium text-muted-foreground hover:text-foreground hover:bg-muted/50 rounded-lg transition-all duration-200"
                   >
                     <span>{t('common.features')}</span>
-                    <ChevronDown className="h-4 w-4" />
-                  </button>
-                  <button 
-                    onClick={() => scrollToSection('roadmap')}
-                    className="flex items-center justify-between px-3 py-3 text-base font-medium text-muted-foreground hover:text-foreground hover:bg-muted/50 rounded-lg transition-all duration-200"
-                  >
-                    <span>{t('common.roadmap')}</span>
-                    <ChevronDown className="h-4 w-4" />
-                  </button>
-                  <button 
-                    onClick={() => scrollToSection('user-journey')}
-                    className="flex items-center justify-between px-3 py-3 text-base font-medium text-muted-foreground hover:text-foreground hover:bg-muted/50 rounded-lg transition-all duration-200"
-                  >
-                    <span>{t('common.userGuide')}</span>
                     <ChevronDown className="h-4 w-4" />
                   </button>
                   <button 

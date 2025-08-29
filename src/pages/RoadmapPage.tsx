@@ -7,9 +7,17 @@ export default function RoadmapPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background relative">
+      {/* Animated Background Logo */}
+      <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-0">
+        <img 
+          src="/img/africaLogi_logo.png" 
+          alt="AfricaLogi Background" 
+          className="w-96 h-96 object-contain opacity-40 animate-[float_6s_ease-in-out_infinite]"
+        />
+      </div>
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border relative">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Back Button and Title */}
@@ -54,7 +62,7 @@ export default function RoadmapPage() {
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 relative z-10">
         <Roadmap />
       </main>
 
