@@ -306,13 +306,13 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
               <img 
                 src="/lovable-uploads/0ae72aa7-7536-47d9-8330-1c8b1ceca201.png" 
                 alt="UAOTL Logo" 
-                className="h-12 w-auto sm:h-16"
+                className="h-16 w-auto sm:h-16"
               />
               <div className="text-left">
-                <Badge variant="success" className="mb-2 text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2 status-au-success">
+                <Badge className="mb-2 text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2 status-au-success">
                   {t('landing.hero.badge')}
                 </Badge>
-                <p className="text-sm text-muted-foreground">{t('landing.hero.serviceBy')}</p>
+                <p className="text-md text-muted-foreground">{t('landing.hero.serviceBy')}</p>
               </div>
             </div>
             
