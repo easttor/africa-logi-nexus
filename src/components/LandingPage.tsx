@@ -302,9 +302,19 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
       <section className="relative overflow-hidden bg-gradient-to-br from-background via-muted/30 to-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24 xl:py-32">
           <div className="text-center max-w-4xl mx-auto">
-            <Badge variant="success" className="mb-4 sm:mb-6 text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2 status-au-success">
-              {t('landing.hero.badge')}
-            </Badge>
+            <div className="flex items-center justify-center gap-4 mb-6">
+              <img 
+                src="/lovable-uploads/0ae72aa7-7536-47d9-8330-1c8b1ceca201.png" 
+                alt="UAOTL Logo" 
+                className="h-12 w-auto sm:h-16"
+              />
+              <div className="text-left">
+                <Badge variant="success" className="mb-2 text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2 status-au-success">
+                  {t('landing.hero.badge')}
+                </Badge>
+                <p className="text-sm text-muted-foreground">{t('landing.hero.serviceBy')}</p>
+              </div>
+            </div>
             
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4 sm:mb-6 leading-tight">
               {t('landing.hero.title')}
@@ -723,6 +733,16 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
           </div>
           
           <div className="border-t border-white/20 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-white/80">
+            <div className="flex flex-col items-center gap-4 mb-4">
+              <div className="flex items-center gap-3">
+                <img 
+                  src="/lovable-uploads/0ae72aa7-7536-47d9-8330-1c8b1ceca201.png" 
+                  alt="UAOTL Logo" 
+                  className="h-8 w-auto"
+                />
+                <span className="text-sm">{t('landing.hero.serviceBy')}</span>
+              </div>
+            </div>
             <p className="text-xs sm:text-sm">&copy; 2025 AfricaLogi. All rights reserved.</p>
           </div>
         </div>
