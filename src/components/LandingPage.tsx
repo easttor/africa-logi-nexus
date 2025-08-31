@@ -200,14 +200,6 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
             <div className="hidden lg:flex items-center gap-3 xl:gap-4">
               <LanguageSelector />
               <Button 
-                variant="outline" 
-                size="sm"
-                onClick={() => window.open('/presentation', '_blank')}
-                className="hidden xl:inline-flex"
-              >
-                Investor Deck
-              </Button>
-              <Button 
                 variant="africalogi-outline" 
                 size="sm"
                 onClick={onViewDemo}
@@ -287,13 +279,6 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
                 {/* CTA Buttons */}
                 <div className="pt-2 border-t border-border space-y-3">
                   <Button 
-                    variant="outline" 
-                    className="w-full"
-                    onClick={() => window.open('/presentation', '_blank')}
-                  >
-                    Investor Deck
-                  </Button>
-                  <Button 
                     variant="africalogi-outline" 
                     className="w-full"
                     onClick={onViewDemo}
@@ -337,23 +322,6 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
                 className="gap-2 sm:gap-3 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 btn-au-primary w-full sm:w-auto"
               >
                 {t('landing.hero.cta')}
-                <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
-              </Button>
-              <Button 
-                variant="africalogi-outline" 
-                size="lg"
-                className="gap-2 sm:gap-3 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 btn-au-secondary w-full sm:w-auto"
-              >
-                {t('landing.hero.secondaryCta')}
-                <ChevronDown className="h-4 w-4 sm:h-5 sm:w-5" />
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg"
-                onClick={() => window.open('/roadmap', '_blank')}
-                className="gap-2 sm:gap-3 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 w-full sm:w-auto"
-              >
-                {t('landing.roadmap.viewFullRoadmap')}
                 <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
               </Button>
             </div>
