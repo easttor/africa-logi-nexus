@@ -668,7 +668,7 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
               <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
             <Button 
-              variant="outline" 
+              variant="secondary" 
               size="lg"
               onClick={onViewDemo}
               className="gap-2 sm:gap-3 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 border-white/30 text-white hover:bg-white/10 w-full sm:w-auto"
@@ -724,15 +724,14 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
               <h3 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Contact</h3>
               <ul className="space-y-1 sm:space-y-2 text-xs sm:text-sm text-white/80">
                 <li>support@africalogi.com</li>
-                <li>+234 800 AFRICA</li>
-                <li>Lagos, Nigeria</li>
-                <li>Accra, Ghana</li>
+                <li>Adresse. 10, Angle Allée De Fenix Et Des Mellias Ain Sebaa - Aîn-Sebaâ</li>
+                <li>Casablanca Royaume du Maroc</li>
               </ul>
             </div>
           </div>
           
           <div className="border-t border-white/20 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-white/80">
-            <p className="text-xs sm:text-sm">&copy; 2024 AfricaLogi. All rights reserved.</p>
+            <p className="text-xs sm:text-sm">&copy; 2025 AfricaLogi. All rights reserved.</p>
           </div>
         </div>
       </footer>
