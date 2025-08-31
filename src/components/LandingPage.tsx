@@ -309,10 +309,10 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
                 className="h-16 w-auto sm:h-16"
               />
               <div className="text-left">
+                <p className="text-md text-muted-foreground">{t('landing.hero.serviceBy')}</p>
                 <Badge className="mb-2 text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2 status-au-success">
                   {t('landing.hero.badge')}
                 </Badge>
-                <p className="text-md text-muted-foreground">{t('landing.hero.serviceBy')}</p>
               </div>
             </div>
             
