@@ -667,14 +667,6 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
               {t('landing.cta.getStarted')}
               <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
-            <Button 
-              variant="secondary" 
-              size="lg"
-              onClick={onViewDemo}
-              className="gap-2 sm:gap-3 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 border-white/30 text-white hover:bg-white/10 w-full sm:w-auto"
-            >
-              {t('landing.cta.viewDemo')}
-            </Button>
           </div>
         </div>
       </section>
