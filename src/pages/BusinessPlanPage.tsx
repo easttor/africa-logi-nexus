@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -6,7 +6,7 @@ import { ArrowLeft, Target, Users, TrendingUp, Globe, DollarSign, Shield } from 
 import { useNavigate } from "react-router-dom";
 
 export default function BusinessPlanPage() {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
   const navigate = useNavigate();
 
   return (
