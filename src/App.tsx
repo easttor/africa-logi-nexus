@@ -18,7 +18,8 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 const App = () => (
-  <LanguageProvider>
+  // Temporarily disable LanguageProvider to isolate the React issue
+  // <LanguageProvider>
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
@@ -38,7 +39,7 @@ const App = () => (
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
-  </LanguageProvider>
+  // </LanguageProvider>
 );
 
 export default App;
