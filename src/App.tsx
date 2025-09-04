@@ -9,6 +9,8 @@ import AppPage from "./pages/AppPage";
 import { ArchitecturePage } from "./pages/ArchitecturePage";
 import RoadmapPage from "./pages/RoadmapPage";
 import UserJourneyPage from "./pages/UserJourneyPage";
+import BusinessPlanPage from "./pages/BusinessPlanPage";
+import BudgetPlanPage from "./pages/BudgetPlanPage";
 import NotFound from "./pages/NotFound";
 
 // African Union Theme Applied - Using colors: #00764B (green), #C3A466 (gold), #951F39 (red)
@@ -28,6 +30,8 @@ const App = () => (
             <Route path="/architecture" element={<ArchitecturePage />} />
             <Route path="/roadmap" element={<RoadmapPage />} />
             <Route path="/user-journey" element={<UserJourneyPage />} />
+            <Route path="/business-plan" element={<BusinessPlanPage />} />
+            <Route path="/budget-plan" element={<BudgetPlanPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

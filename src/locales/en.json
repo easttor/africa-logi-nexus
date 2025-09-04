@@ -154,6 +154,16 @@
         "phoneSupport": "24/7 phone support"
       }
     },
+    "businessPlan": {
+      "title": "Strategic Business Plan",
+      "subtitle": "Comprehensive overview of AfricaLogi's business strategy and growth roadmap",
+      "viewFullPlan": "View Complete Business Plan"
+    },
+    "budgetPlan": {
+      "title": "Budget & Financial Plan",
+      "subtitle": "Detailed breakdown of development costs and infrastructure investments",
+      "viewFullBudget": "View Detailed Budget Plan"
+    },
     "cta": {
       "title": "Ready to Transform Your Logistics?",
       "subtitle": "Join thousands of businesses already using AfricaLogi to streamline their supply chain operations.",
@@ -222,6 +232,164 @@
       "shipperDesc": "Businesses and individuals who need to transport goods",
       "carrierDesc": "Truck owners, logistics companies, and transport operators",
       "brokerDesc": "Intermediaries who connect shippers with carriers"
+    }
+  },
+  "businessPlan": {
+    "title": "AfricaLogi Business Plan",
+    "subtitle": "Strategic roadmap for transforming Africa's logistics landscape",
+    "businessModel": {
+      "title": "Business Model",
+      "b2b": {
+        "title": "B2B Enterprise",
+        "description": "Serving large-scale logistics operations",
+        "features": {
+          "enterprises": "Multi-national corporations",
+          "logistics": "Regional logistics providers",
+          "government": "Government trade agencies"
+        }
+      },
+      "saas": {
+        "title": "SaaS Platform",
+        "description": "Subscription-based software solutions",
+        "features": {
+          "monthly": "Monthly subscription tiers",
+          "transaction": "Transaction-based fees",
+          "premium": "Premium feature access"
+        }
+      },
+      "marketplace": {
+        "title": "Digital Marketplace",
+        "description": "Commission-based trading platform",
+        "features": {
+          "commission": "5-8% transaction fees",
+          "verified": "Verified partner network",
+          "insurance": "Integrated insurance products"
+        }
+      }
+    },
+    "marketAnalysis": {
+      "title": "Market Analysis & Strategy",
+      "opportunity": {
+        "title": "Market Opportunity",
+        "market": "African logistics market size",
+        "growth": "Annual growth rate",
+        "population": "People served across Africa"
+      },
+      "strategy": {
+        "title": "Go-to-Market Strategy",
+        "phase1": {
+          "title": "Phase 1: Foundation",
+          "description": "Launch in 5 key markets with core features"
+        },
+        "phase2": {
+          "title": "Phase 2: Expansion",
+          "description": "Scale to 15 countries with advanced features"
+        },
+        "phase3": {
+          "title": "Phase 3: Domination",
+          "description": "Pan-African presence with full ecosystem"
+        }
+      }
+    },
+    "financials": {
+      "title": "Financial Projections",
+      "year1": "Year 1 Revenue Projection",
+      "year2": "Year 2 Revenue Projection", 
+      "year3": "Year 3 Revenue Projection"
+    },
+    "risks": {
+      "title": "Risk Assessment & Mitigation",
+      "mitigation": {
+        "title": "Risk Mitigation",
+        "diversification": "Revenue stream diversification",
+        "partnerships": "Strategic local partnerships",
+        "compliance": "Regulatory compliance framework",
+        "technology": "Robust technology infrastructure"
+      },
+      "opportunities": {
+        "title": "Growth Opportunities",
+        "digital": "Digital transformation demand",
+        "infrastructure": "Infrastructure development",
+        "trade": "Intra-African trade growth",
+        "sustainability": "Green logistics initiatives"
+      }
+    }
+  },
+  "budgetPlan": {
+    "title": "Budget & Cost Plan",
+    "subtitle": "Comprehensive financial breakdown for 6-month development timeline",
+    "overview": {
+      "title": "Budget Overview",
+      "total": "Total Budget",
+      "months": "months",
+      "timeline": "Development Timeline",
+      "countries": "Target Countries"
+    },
+    "development": {
+      "title": "Development Costs",
+      "team": {
+        "title": "Development Team",
+        "description": "Distributed team across Morocco and Switzerland",
+        "morocco": {
+          "title": "Morocco Development Team",
+          "description": "12 developers, UI/UX designers, DevOps engineers"
+        },
+        "switzerland": {
+          "title": "Switzerland Management",
+          "description": "Project management, strategy, and oversight"
+        },
+        "qa": {
+          "title": "QA & Testing",
+          "description": "Quality assurance and testing specialists"
+        }
+      },
+      "breakdown": {
+        "title": "Team Breakdown",
+        "frontend": "Frontend Development",
+        "backend": "Backend Development",
+        "mobile": "Mobile Development",
+        "management": "Project Management"
+      }
+    },
+    "infrastructure": {
+      "title": "Infrastructure & Security",
+      "server": {
+        "title": "Server Infrastructure",
+        "description": "Cloud hosting and scalable architecture",
+        "cloud": "Multi-region cloud hosting",
+        "cdn": "Global CDN network",
+        "database": "High-performance databases",
+        "monitoring": "System monitoring tools",
+        "total": "Total Server Costs"
+      },
+      "security": {
+        "title": "Cybersecurity",
+        "description": "Enterprise-grade security measures",
+        "penetration": "Penetration testing",
+        "compliance": "Security compliance",
+        "insurance": "Cyber insurance",
+        "monitoring": "Security monitoring",
+        "total": "Total Security Costs"
+      }
+    },
+    "timeline": {
+      "title": "Budget Timeline & Milestones",
+      "q1": {
+        "title": "Months 1-2",
+        "description": "Foundation & MVP development"
+      },
+      "q2": {
+        "title": "Months 3-4",
+        "description": "Core features & integrations"
+      },
+      "q3": {
+        "title": "Months 5-6",
+        "description": "Advanced features & testing"
+      },
+      "q4": {
+        "title": "Launch Phase",
+        "description": "Deployment & optimization"
+      }
     }
   }
 }

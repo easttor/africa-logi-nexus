@@ -20,7 +20,9 @@ import {
   Truck,
   Globe,
   Server,
-  Database
+  Database,
+  DollarSign,
+  Users
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -450,8 +452,127 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
         </div>
       </section>
 
+      {/* Business Plan Section */}
+      <section id="business-plan" className="py-16 sm:py-20 lg:py-24 xl:py-32 bg-gradient-to-r from-background to-muted/50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 sm:mb-4">
+              {t('landing.businessPlan.title')}
+            </h2>
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto px-4">
+              {t('landing.businessPlan.subtitle')}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto mb-8 sm:mb-12">
+            <div className="text-center p-4 sm:p-6 rounded-lg bg-white shadow-lg border border-border">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <Target className="h-6 w-6 sm:h-8 sm:w-8 text-blue-500" />
+              </div>
+              <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2">Market Strategy</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground mb-3">$180B African logistics market</p>
+              <Badge variant="outline" className="text-xs">8.2% Growth</Badge>
+            </div>
+
+            <div className="text-center p-4 sm:p-6 rounded-lg bg-white shadow-lg border border-border">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <DollarSign className="h-6 w-6 sm:h-8 sm:w-8 text-green-500" />
+              </div>
+              <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2">Revenue Model</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground mb-3">SaaS + Marketplace + B2B</p>
+              <Badge variant="outline" className="text-xs">Multi-stream</Badge>
+            </div>
+
+            <div className="text-center p-4 sm:p-6 rounded-lg bg-white shadow-lg border border-border">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-purple-500/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <TrendingUp className="h-6 w-6 sm:h-8 sm:w-8 text-purple-500" />
+              </div>
+              <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2">Growth Plan</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground mb-3">$25M projected by Year 3</p>
+              <Badge variant="outline" className="text-xs">Scalable</Badge>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <Button 
+              variant="africalogi-outline"
+              size="lg"
+              onClick={() => window.open('/business-plan', '_blank')}
+              className="gap-3 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6"
+            >
+              {t('landing.businessPlan.viewFullPlan')}
+              <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Budget Plan Section */}
+      <section id="budget-plan" className="py-16 sm:py-20 lg:py-24 xl:py-32 bg-gradient-to-r from-muted/50 to-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 sm:mb-4">
+              {t('landing.budgetPlan.title')}
+            </h2>
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto px-4">
+              {t('landing.budgetPlan.subtitle')}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-6xl mx-auto mb-8 sm:mb-12">
+            <div className="text-center p-4 sm:p-6 rounded-lg bg-white shadow-lg border border-border">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <Users className="h-6 w-6 sm:h-8 sm:w-8 text-blue-500" />
+              </div>
+              <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2">Development Team</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground mb-3">Morocco + Switzerland</p>
+              <Badge variant="outline" className="text-xs">$2.3M</Badge>
+            </div>
+
+            <div className="text-center p-4 sm:p-6 rounded-lg bg-white shadow-lg border border-border">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <Server className="h-6 w-6 sm:h-8 sm:w-8 text-green-500" />
+              </div>
+              <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2">Infrastructure</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground mb-3">Multi-region cloud hosting</p>
+              <Badge variant="outline" className="text-xs">$400K</Badge>
+            </div>
+
+            <div className="text-center p-4 sm:p-6 rounded-lg bg-white shadow-lg border border-border">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-red-500/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <Shield className="h-6 w-6 sm:h-8 sm:w-8 text-red-500" />
+              </div>
+              <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2">Cybersecurity</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground mb-3">Enterprise-grade protection</p>
+              <Badge variant="outline" className="text-xs">$300K</Badge>
+            </div>
+
+            <div className="text-center p-4 sm:p-6 rounded-lg bg-white shadow-lg border border-border">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-purple-500/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <DollarSign className="h-6 w-6 sm:h-8 sm:w-8 text-purple-500" />
+              </div>
+              <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2">Total Budget</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground mb-3">6-month development</p>
+              <Badge variant="outline" className="text-xs">$2.8M</Badge>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <Button 
+              variant="africalogi-outline"
+              size="lg"
+              onClick={() => window.open('/budget-plan', '_blank')}
+              className="gap-3 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6"
+            >
+              {t('landing.budgetPlan.viewFullBudget')}
+              <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Roadmap Preview Section */}
-      <section id="roadmap" className="py-16 sm:py-20 lg:py-24 xl:py-32 bg-gradient-to-r from-muted/50 to-background">
+      <section id="roadmap" className="py-16 sm:py-20 lg:py-24 xl:py-32 bg-gradient-to-r from-background to-muted/50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 sm:mb-4">
