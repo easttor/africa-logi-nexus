@@ -28,7 +28,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { LanguageSelector } from "@/components/ui/language-selector";
-import { useLanguage } from "@/hooks/use-language-mock";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const features = [
   {
