@@ -1,5 +1,18 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { Language, languages, defaultLanguage, detectLanguage, getDirection } from '@/lib/i18n';
+import React, { createContext, useContext, useState, ReactNode } from 'react';
+import { Language, languages, defaultLanguage, getDirection } from '@/lib/i18n';
+
+// Import translations statically to avoid async issues
+import enTranslations from '@/locales/en.json';
+import frTranslations from '@/locales/fr.json';
+import arTranslations from '@/locales/ar.json';
+import ptTranslations from '@/locales/pt.json';
+
+const translationsMap = {
+  en: enTranslations,
+  fr: frTranslations,
+  ar: arTranslations,
+  pt: ptTranslations,
+};
 
 interface LanguageContextType {
   currentLanguage: Language;
@@ -16,30 +29,9 @@ interface LanguageProviderProps {
 
 export function LanguageProvider({ children }: LanguageProviderProps) {
   const [currentLanguage, setCurrentLanguage] = useState<Language>(defaultLanguage);
-  const [translations, setTranslations] = useState<Record<string, any>>({});
 
-  useEffect(() => {
-    // Detect browser language on mount
-    const detectedLang = detectLanguage();
-    setCurrentLanguage(detectedLang);
-    loadTranslations(detectedLang);
-  }, []);
-
-  const loadTranslations = async (lang: Language) => {
-    try {
-      const translationModule = await import(`@/locales/${lang}.json`);
-      setTranslations(translationModule.default);
-    } catch (error) {
-      console.error(`Failed to load translations for ${lang}:`, error);
-      // Fallback to English
-      const fallbackModule = await import('@/locales/en.json');
-      setTranslations(fallbackModule.default);
-    }
-  };
-
-  const setLanguage = async (lang: Language) => {
+  const setLanguage = (lang: Language) => {
     setCurrentLanguage(lang);
-    await loadTranslations(lang);
     
     // Update document direction
     document.documentElement.dir = getDirection(lang);
@@ -50,6 +42,7 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
   };
 
   const t = (key: string): string => {
+    const translations = translationsMap[currentLanguage] || translationsMap[defaultLanguage];
     const keys = key.split('.');
     let value: any = translations;
     
