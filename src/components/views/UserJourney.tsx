@@ -7,7 +7,7 @@ import {
   Globe, Smartphone, Package, Bell
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { useLanguage } from "@/hooks/use-language-mock";
 
 export function UserJourney() {
   const { t } = useLanguage();

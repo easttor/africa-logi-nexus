@@ -13,7 +13,7 @@ import {
   Shield,
   BarChart3
 } from "lucide-react";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { useLanguage } from "@/hooks/use-language-mock";
 
 export function Roadmap() {
   const { t } = useLanguage();

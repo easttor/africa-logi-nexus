@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { BarChart3, Package, Clock, TrendingUp, MapPin, Globe, FileText, CreditCard } from "lucide-react";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { useLanguage } from "@/hooks/use-language-mock";
 
 export function Dashboard() {
   const { t } = useLanguage();
