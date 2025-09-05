@@ -452,7 +452,7 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
         </div>
       </section>
 
-      {/* Business Plan Section */}
+      {/* Business Plan Section 
       <section id="business-plan" className="py-16 sm:py-20 lg:py-24 xl:py-32 bg-gradient-to-r from-background to-muted/50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
@@ -506,7 +506,7 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
           </div>
         </div>
       </section>
-
+      */}
       {/* Budget Plan Section 
       <section id="budget-plan" className="py-16 sm:py-20 lg:py-24 xl:py-32 bg-gradient-to-r from-muted/50 to-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -707,7 +707,7 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
         </div>
       </section>
 
-      {/* Pricing Section 
+      {/* Pricing Section  */}
       <section id="pricing" className="py-16 sm:py-20 lg:py-24 xl:py-32">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
@@ -778,7 +778,7 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
           </div>
         </div>
       </section>
-      */}
+     
       {/* CTA Section */}
       <section id="contact" className="py-16 sm:py-20 lg:py-24 xl:py-32 bg-gradient-au-primary text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
