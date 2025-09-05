@@ -236,12 +236,29 @@
   },
   "businessPlan": {
     "title": "AfricaLogi Business Plan",
-    "subtitle": "Strategic roadmap for transforming Africa's logistics landscape",
+    "subtitle": "Strategic roadmap for transforming Africa's logistics landscape with Swiss-Moroccan operational excellence",
+    "executiveSummary": {
+      "title": "Executive Summary",
+      "concept": "Next-generation B2B digital platform serving the African Union",
+      "mission": "Simplify, unify, and bring transparency to logistics and trade flows between member nations",
+      "problem": "Intra-African trade hampered by fragmented logistics infrastructure and lack of real-time visibility",
+      "solution": "Centralized SaaS platform with real-time tracking, digital customs, and carrier network",
+      "advantage": "Swiss operational excellence with Moroccan cost competitiveness",
+      "funding": "Seed funding required for 18-month operational runway"
+    },
+    "companyDescription": {
+      "title": "Company Description",
+      "headquarters": "Headquarters: Zug/Geneva, Switzerland",
+      "development": "Technical Development: Casablanca/Rabat, Morocco",
+      "mission": "To become the operating system for logistics in Africa",
+      "vision": "An African continent where goods flow as freely as information",
+      "strategy": "Leveraging Swiss credibility with Moroccan cost efficiency"
+    },
     "businessModel": {
-      "title": "Business Model",
+      "title": "Business Model & Revenue Streams",
       "b2b": {
-        "title": "B2B Enterprise",
-        "description": "Serving large-scale logistics operations",
+        "title": "B2B Enterprise Solutions",
+        "description": "Premium logistics management for large-scale operations",
         "features": {
           "enterprises": "Multi-national corporations",
           "logistics": "Regional logistics providers",
@@ -249,147 +266,286 @@
         }
       },
       "saas": {
-        "title": "SaaS Platform",
-        "description": "Subscription-based software solutions",
+        "title": "SaaS Subscription Platform",
+        "description": "Tiered subscription model with transaction fees",
         "features": {
-          "monthly": "Monthly subscription tiers",
-          "transaction": "Transaction-based fees",
-          "premium": "Premium feature access"
+          "monthly": "Monthly subscription tiers ($99-$999)",
+          "transaction": "Transaction-based fees (2-5%)",
+          "premium": "Premium features and integrations"
         }
       },
       "marketplace": {
-        "title": "Digital Marketplace",
-        "description": "Commission-based trading platform",
+        "title": "Digital Marketplace Commission",
+        "description": "Revenue from connecting shippers with carriers",
         "features": {
-          "commission": "5-8% transaction fees",
-          "verified": "Verified partner network",
-          "insurance": "Integrated insurance products"
+          "commission": "5-8% transaction commission",
+          "verified": "Verified partner network fees",
+          "insurance": "Insurance product commissions"
         }
       }
     },
     "marketAnalysis": {
-      "title": "Market Analysis & Strategy",
+      "title": "Market Analysis & Opportunity",
+      "marketSize": {
+        "title": "Market Size & Growth",
+        "description": "Comprehensive analysis of African logistics market potential"
+      },
       "opportunity": {
         "title": "Market Opportunity",
-        "market": "African logistics market size",
-        "growth": "Annual growth rate",
-        "population": "People served across Africa"
+        "market": "$180B African logistics market",
+        "growth": "8.2% annual growth rate (AfCFTA driven)",
+        "population": "1.4B people across African continent"
+      },
+      "competition": {
+        "title": "Competitive Landscape",
+        "current": "Fragmented market with traditional players",
+        "advantage": "No integrated pan-African solution exists",
+        "positioning": "First comprehensive AU-aligned platform"
       },
       "strategy": {
         "title": "Go-to-Market Strategy",
         "phase1": {
-          "title": "Phase 1: Foundation",
-          "description": "Launch in 5 key markets with core features"
+          "title": "Phase 1: Foundation (Year 1)",
+          "description": "Launch MVP in 5 key markets: Nigeria, Kenya, South Africa, Ghana, Morocco"
         },
         "phase2": {
-          "title": "Phase 2: Expansion",
-          "description": "Scale to 15 countries with advanced features"
+          "title": "Phase 2: Expansion (Year 2)",
+          "description": "Scale to 15 countries with advanced features and AI integration"
         },
         "phase3": {
-          "title": "Phase 3: Domination",
-          "description": "Pan-African presence with full ecosystem"
+          "title": "Phase 3: Pan-African (Year 3)",
+          "description": "Complete African Union coverage with full ecosystem services"
         }
+      }
+    },
+    "team": {
+      "title": "Organization & Management",
+      "structure": "Dual-location operational structure for maximum efficiency",
+      "switzerland": {
+        "title": "Switzerland Team",
+        "ceo": "CEO: Corporate strategy and investor relations",
+        "product": "Head of Product: Product vision and roadmap",
+        "marketing": "Marketing Manager: Brand and customer acquisition"
+      },
+      "morocco": {
+        "title": "Morocco Development Center",
+        "techLead": "Technical Lead: Architecture and team management",
+        "developers": "Development Team: 6 full-stack developers",
+        "design": "UI/UX Team: Product design and user experience"
+      }
+    },
+    "products": {
+      "title": "Product Development Phases",
+      "mvp": {
+        "title": "Phase 1: MVP (Months 1-6)",
+        "dashboard": "Centralized shipment management dashboard",
+        "matching": "Shipper-carrier matching system",
+        "tracking": "Real-time GPS tracking",
+        "messaging": "Integrated communication platform"
+      },
+      "phase2": {
+        "title": "Phase 2: Core Features (Months 7-12)",
+        "documents": "Digital customs documentation",
+        "payments": "Integrated payment gateways",
+        "analytics": "Performance reporting and analytics"
+      },
+      "phase3": {
+        "title": "Phase 3: Advanced (Months 13-18)",
+        "ai": "AI-powered route optimization",
+        "marketplace": "Ancillary services marketplace",
+        "integration": "Enterprise system integrations"
       }
     },
     "financials": {
-      "title": "Financial Projections",
-      "year1": "Year 1 Revenue Projection",
-      "year2": "Year 2 Revenue Projection", 
-      "year3": "Year 3 Revenue Projection"
+      "title": "Financial Projections & Investment",
+      "funding": {
+        "title": "Funding Requirements",
+        "seed": "669,500 CHF seed funding for 18 months",
+        "breakdown": "60% development, 25% management, 15% operations"
+      },
+      "projections": {
+        "title": "Revenue Projections",
+        "year1": "$2.5M (Year 1: 10-20 pilot clients)",
+        "year2": "$8.2M (Year 2: 100 paying clients)",
+        "year3": "$25M (Year 3: 500+ clients, full scale)"
+      },
+      "costAdvantage": {
+        "title": "Strategic Cost Advantage",
+        "morocco": "70% cost savings vs. full Swiss development",
+        "quality": "High-quality technical talent in Morocco",
+        "credibility": "Swiss operational credibility for investors"
+      }
     },
     "risks": {
-      "title": "Risk Assessment & Mitigation",
+      "title": "Risk Assessment & Opportunities",
       "mitigation": {
-        "title": "Risk Mitigation",
-        "diversification": "Revenue stream diversification",
-        "partnerships": "Strategic local partnerships",
-        "compliance": "Regulatory compliance framework",
-        "technology": "Robust technology infrastructure"
+        "title": "Risk Mitigation Strategy",
+        "diversification": "Multi-country revenue diversification",
+        "partnerships": "Strategic partnerships with local players",
+        "compliance": "Proactive regulatory compliance framework",
+        "technology": "Robust, scalable technology infrastructure"
       },
       "opportunities": {
         "title": "Growth Opportunities",
-        "digital": "Digital transformation demand",
-        "infrastructure": "Infrastructure development",
-        "trade": "Intra-African trade growth",
-        "sustainability": "Green logistics initiatives"
+        "digital": "AfCFTA digital transformation wave",
+        "infrastructure": "African infrastructure development boom",
+        "trade": "30% projected intra-African trade growth",
+        "sustainability": "Green logistics and carbon tracking demand"
       }
+    },
+    "competitive": {
+      "title": "Competitive Advantages",
+      "operational": "Swiss-Moroccan operational model",
+      "comprehensive": "Only pan-African integrated solution",
+      "alignment": "Strategic African Union alignment",
+      "cost": "Competitive cost structure",
+      "quality": "International standards with local understanding"
     }
   },
   "budgetPlan": {
-    "title": "Budget & Cost Plan",
-    "subtitle": "Comprehensive financial breakdown for 6-month development timeline",
+    "title": "Budget & Financial Plan",
+    "subtitle": "Comprehensive 18-month financial breakdown leveraging Swiss-Moroccan cost advantage",
     "overview": {
-      "title": "Budget Overview",
-      "total": "Total Budget",
-      "months": "months",
-      "timeline": "Development Timeline",
-      "countries": "Target Countries"
+      "title": "Seed Funding Overview",
+      "total": "669,500 CHF Total Seed Funding",
+      "months": "months operational runway",
+      "timeline": "18-Month Development Timeline", 
+      "countries": "Target African Union Markets",
+      "advantage": "70% cost savings vs. full Swiss development"
+    },
+    "salaryBreakdown": {
+      "title": "Annual Salary Breakdown",
+      "description": "Strategic cost advantage through dual-location structure",
+      "switzerland": {
+        "title": "Switzerland Team (355K CHF)",
+        "ceo": "CEO: 150,000 CHF",
+        "product": "Head of Product: 110,000 CHF", 
+        "marketing": "Marketing Manager: 95,000 CHF",
+        "total": "Swiss Team Total: 355,000 CHF"
+      },
+      "morocco": {
+        "title": "Morocco Development Center (136K CHF)",
+        "techLead": "Tech Lead/Project Manager: 35,000 CHF",
+        "developers": "2x Mid-level Developers: 50,000 CHF",
+        "junior": "Junior Developer: 15,000 CHF",
+        "designer": "UI/UX Designer: 20,000 CHF",
+        "qa": "QA Tester: 16,000 CHF",
+        "total": "Morocco Team Total: 136,000 CHF"
+      },
+      "comparison": {
+        "title": "Cost Comparison Analysis",
+        "swissEquivalent": "Equivalent Swiss team cost: ~850K CHF",
+        "savings": "Annual savings: 359K CHF (42%)",
+        "advantage": "Maintaining Swiss quality at Moroccan costs"
+      }
     },
     "development": {
-      "title": "Development Costs",
+      "title": "Development Investment Allocation",
       "team": {
-        "title": "Development Team",
-        "description": "Distributed team across Morocco and Switzerland",
+        "title": "Team Salary Distribution",
+        "description": "60% of total budget allocated to product development",
         "morocco": {
-          "title": "Morocco Development Team",
-          "description": "12 developers, UI/UX designers, DevOps engineers"
+          "title": "Morocco Development (60%)",
+          "description": "Core development team delivering product features"
         },
         "switzerland": {
-          "title": "Switzerland Management",
-          "description": "Project management, strategy, and oversight"
+          "title": "Switzerland Management (25%)", 
+          "description": "Strategic oversight and business development"
         },
         "qa": {
-          "title": "QA & Testing",
-          "description": "Quality assurance and testing specialists"
+          "title": "Operations & Overhead (15%)",
+          "description": "Infrastructure, legal, marketing, and contingency"
         }
       },
       "breakdown": {
-        "title": "Team Breakdown",
-        "frontend": "Frontend Development",
-        "backend": "Backend Development",
-        "mobile": "Mobile Development",
-        "management": "Project Management"
+        "title": "Technical Team Breakdown", 
+        "frontend": "Frontend Development Team",
+        "backend": "Backend & Infrastructure Team",
+        "mobile": "Mobile App Development",
+        "management": "Technical Project Management"
+      }
+    },
+    "operationalCosts": {
+      "title": "Operational Expenses Breakdown",
+      "office": {
+        "title": "Office & Workspace (30K CHF)",
+        "switzerland": "Swiss representative office: 18K CHF",
+        "morocco": "Morocco coworking space: 12K CHF",
+        "description": "Professional presence in both jurisdictions"
+      },
+      "infrastructure": {
+        "title": "Technology Infrastructure (21.5K CHF)",
+        "cloud": "Cloud hosting (AWS/Azure): 15K CHF",
+        "subscriptions": "Software subscriptions: 5K CHF", 
+        "accounting": "Accounting software: 1.5K CHF",
+        "description": "Scalable cloud-first architecture"
+      },
+      "legal": {
+        "title": "Legal & Administrative (22K CHF)",
+        "incorporation": "Swiss & Moroccan entities: 7K CHF",
+        "retainers": "Legal & accounting retainers: 15K CHF",
+        "description": "Regulatory compliance and governance"
+      },
+      "marketing": {
+        "title": "Marketing & Sales (30K CHF)",
+        "digital": "Digital marketing campaigns: 20K CHF",
+        "events": "Trade shows and networking: 10K CHF",
+        "description": "Customer acquisition and brand building"
       }
     },
     "infrastructure": {
-      "title": "Infrastructure & Security",
+      "title": "Technical Infrastructure Investment",
       "server": {
-        "title": "Server Infrastructure",
-        "description": "Cloud hosting and scalable architecture",
-        "cloud": "Multi-region cloud hosting",
-        "cdn": "Global CDN network",
-        "database": "High-performance databases",
-        "monitoring": "System monitoring tools",
-        "total": "Total Server Costs"
+        "title": "Cloud Infrastructure (45K CHF)",
+        "description": "Multi-region deployment for African markets",
+        "cloud": "Multi-region cloud hosting: 25K CHF",
+        "cdn": "Global CDN network: 8K CHF", 
+        "database": "High-performance databases: 7K CHF",
+        "monitoring": "System monitoring & alerts: 5K CHF",
+        "total": "Total Infrastructure: 45K CHF"
       },
       "security": {
-        "title": "Cybersecurity",
-        "description": "Enterprise-grade security measures",
-        "penetration": "Penetration testing",
-        "compliance": "Security compliance",
-        "insurance": "Cyber insurance",
-        "monitoring": "Security monitoring",
-        "total": "Total Security Costs"
+        "title": "Security & Compliance (25K CHF)",
+        "description": "Enterprise-grade security for sensitive logistics data",
+        "penetration": "Security audits & penetration testing: 10K CHF",
+        "compliance": "Data protection compliance: 8K CHF",
+        "insurance": "Cyber insurance coverage: 4K CHF",
+        "monitoring": "Security monitoring tools: 3K CHF",
+        "total": "Total Security Investment: 25K CHF"
       }
     },
     "timeline": {
-      "title": "Budget Timeline & Milestones",
-      "q1": {
-        "title": "Months 1-2",
-        "description": "Foundation & MVP development"
+      "title": "18-Month Budget Timeline",
+      "phase1": {
+        "title": "Months 1-6: Foundation (280K CHF)",
+        "description": "Team setup, MVP development, initial market validation"
       },
-      "q2": {
-        "title": "Months 3-4",
-        "description": "Core features & integrations"
+      "phase2": {
+        "title": "Months 7-12: Growth (220K CHF)", 
+        "description": "Core features, pilot customers, revenue validation"
       },
-      "q3": {
-        "title": "Months 5-6",
-        "description": "Advanced features & testing"
+      "phase3": {
+        "title": "Months 13-18: Scale (169.5K CHF)",
+        "description": "Advanced features, market expansion, funding prep"
       },
-      "q4": {
-        "title": "Launch Phase",
-        "description": "Deployment & optimization"
+      "contingency": {
+        "title": "Contingency Reserve (90K CHF)",
+        "description": "15% buffer for unexpected expenses and opportunities"
       }
+    },
+    "useOfFunds": {
+      "title": "Strategic Use of Funds",
+      "development": "60% - Product Development (Morocco team advantage)",
+      "management": "25% - Management & Strategy (Swiss credibility)",  
+      "operations": "15% - Operations, Marketing & Contingency",
+      "advantage": "Optimal resource allocation leveraging geographic advantages"
+    },
+    "roi": {
+      "title": "Return on Investment Projection",
+      "efficiency": "Cost efficiency: 42% savings vs. Swiss-only approach",
+      "timeline": "Break-even projected: Month 24-30",
+      "revenue": "3-year revenue target: $25M ARR",
+      "multiple": "Expected revenue multiple: 37x on seed investment"
     }
   }
 }
