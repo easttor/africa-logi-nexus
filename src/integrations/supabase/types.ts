@@ -14,6 +14,228 @@ export type Database = {
   }
   public: {
     Tables: {
+      deliveries: {
+        Row: {
+          created_at: string
+          delivery_date: string | null
+          id: string
+          is_on_time: boolean | null
+          notes: string | null
+          photos: string[] | null
+          shipment_id: string
+          signature: string | null
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          delivery_date?: string | null
+          id?: string
+          is_on_time?: boolean | null
+          notes?: string | null
+          photos?: string[] | null
+          shipment_id: string
+          signature?: string | null
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          delivery_date?: string | null
+          id?: string
+          is_on_time?: boolean | null
+          notes?: string | null
+          photos?: string[] | null
+          shipment_id?: string
+          signature?: string | null
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "deliveries_shipment_id_fkey"
+            columns: ["shipment_id"]
+            isOneToOne: false
+            referencedRelation: "shipments"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      documents: {
+        Row: {
+          created_at: string
+          document_type: string
+          file_size: number | null
+          file_url: string | null
+          id: string
+          shipment_id: string | null
+          title: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          document_type: string
+          file_size?: number | null
+          file_url?: string | null
+          id?: string
+          shipment_id?: string | null
+          title: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          document_type?: string
+          file_size?: number | null
+          file_url?: string | null
+          id?: string
+          shipment_id?: string | null
+          title?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "documents_shipment_id_fkey"
+            columns: ["shipment_id"]
+            isOneToOne: false
+            referencedRelation: "shipments"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      marketplace_items: {
+        Row: {
+          availability: string | null
+          category: string | null
+          created_at: string
+          currency: string | null
+          description: string | null
+          id: string
+          images: string[] | null
+          location: string | null
+          price: number | null
+          title: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          availability?: string | null
+          category?: string | null
+          created_at?: string
+          currency?: string | null
+          description?: string | null
+          id?: string
+          images?: string[] | null
+          location?: string | null
+          price?: number | null
+          title: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          availability?: string | null
+          category?: string | null
+          created_at?: string
+          currency?: string | null
+          description?: string | null
+          id?: string
+          images?: string[] | null
+          location?: string | null
+          price?: number | null
+          title?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      notifications: {
+        Row: {
+          created_at: string
+          id: string
+          is_read: boolean | null
+          message: string
+          related_id: string | null
+          related_type: string | null
+          title: string
+          type: string | null
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          is_read?: boolean | null
+          message: string
+          related_id?: string | null
+          related_type?: string | null
+          title: string
+          type?: string | null
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          is_read?: boolean | null
+          message?: string
+          related_id?: string | null
+          related_type?: string | null
+          title?: string
+          type?: string | null
+          user_id?: string
+        }
+        Relationships: []
+      }
+      payments: {
+        Row: {
+          amount: number
+          created_at: string
+          currency: string
+          id: string
+          payment_date: string | null
+          payment_method: string | null
+          shipment_id: string | null
+          status: string
+          transaction_id: string | null
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          amount: number
+          created_at?: string
+          currency?: string
+          id?: string
+          payment_date?: string | null
+          payment_method?: string | null
+          shipment_id?: string | null
+          status?: string
+          transaction_id?: string | null
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          amount?: number
+          created_at?: string
+          currency?: string
+          id?: string
+          payment_date?: string | null
+          payment_method?: string | null
+          shipment_id?: string | null
+          status?: string
+          transaction_id?: string | null
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "payments_shipment_id_fkey"
+            columns: ["shipment_id"]
+            isOneToOne: false
+            referencedRelation: "shipments"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       profiles: {
         Row: {
           company: string | null
@@ -44,6 +266,54 @@ export type Database = {
           phone?: string | null
           updated_at?: string
           user_id?: string
+        }
+        Relationships: []
+      }
+      shipments: {
+        Row: {
+          actual_delivery: string | null
+          created_at: string
+          destination: string
+          dimensions: string | null
+          estimated_delivery: string | null
+          id: string
+          notes: string | null
+          origin: string
+          status: string
+          tracking_number: string
+          updated_at: string
+          user_id: string
+          weight: number | null
+        }
+        Insert: {
+          actual_delivery?: string | null
+          created_at?: string
+          destination: string
+          dimensions?: string | null
+          estimated_delivery?: string | null
+          id?: string
+          notes?: string | null
+          origin: string
+          status?: string
+          tracking_number: string
+          updated_at?: string
+          user_id: string
+          weight?: number | null
+        }
+        Update: {
+          actual_delivery?: string | null
+          created_at?: string
+          destination?: string
+          dimensions?: string | null
+          estimated_delivery?: string | null
+          id?: string
+          notes?: string | null
+          origin?: string
+          status?: string
+          tracking_number?: string
+          updated_at?: string
+          user_id?: string
+          weight?: number | null
         }
         Relationships: []
       }
