@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import Index from "./pages/Index";
 import AppPage from "./pages/AppPage";
+import AuthPage from "./pages/AuthPage";
 import { ArchitecturePage } from "./pages/ArchitecturePage";
 import RoadmapPage from "./pages/RoadmapPage";
 import UserJourneyPage from "./pages/UserJourneyPage";
@@ -26,6 +27,7 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/auth" element={<AuthPage />} />
             <Route path="/app" element={<AppPage />} />
             <Route path="/architecture" element={<ArchitecturePage />} />
             <Route path="/roadmap" element={<RoadmapPage />} />

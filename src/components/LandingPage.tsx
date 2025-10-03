@@ -211,6 +211,7 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
               <Button 
                 variant="africalogi"
                 size="sm"
+                onClick={() => window.location.href = '/auth'}
               >
                 {t('common.getStarted')}
               </Button>
@@ -290,6 +291,7 @@ export function LandingPage({ onViewDemo }: LandingPageProps) {
                   <Button 
                     variant="africalogi"
                     className="w-full"
+                    onClick={() => window.location.href = '/auth'}
                   >
                     {t('common.getStarted')}
                   </Button>
