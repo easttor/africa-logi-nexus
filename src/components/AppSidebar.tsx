@@ -127,10 +127,10 @@ export function AppSidebar({ activeView, onViewChange }: SidebarProps) {
           </div>
         </div>
         <Button
-          variant="outline"
+          variant="destructive"
           size="sm"
           onClick={handleSignOut}
-          className="w-full justify-start gap-2 text-white border-white/20 hover:bg-white/10"
+          className="w-full justify-start gap-2"
         >
           <LogOut className="h-4 w-4" />
           Sign Out
