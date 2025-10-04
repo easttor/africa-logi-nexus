@@ -11,9 +11,15 @@ import {
   Settings,
   Building2,
   Map,
-  User
+  User,
+  LogOut
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useState, useEffect } from "react";
+import { supabase } from "@/integrations/supabase/client";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 interface SidebarProps {
   activeView: string;
@@ -34,6 +40,36 @@ const navigationItems = [
 ];
 
 export function AppSidebar({ activeView, onViewChange }: SidebarProps) {
+  const navigate = useNavigate();
+  const [profile, setProfile] = useState<{
+    full_name: string | null;
+    avatar_url: string | null;
+  } | null>(null);
+
+  useEffect(() => {
+    loadProfile();
+  }, []);
+
+  const loadProfile = async () => {
+    const { data: { user } } = await supabase.auth.getUser();
+    if (user) {
+      const { data } = await supabase
+        .from('profiles')
+        .select('full_name, avatar_url')
+        .eq('user_id', user.id)
+        .single();
+      
+      if (data) {
+        setProfile(data);
+      }
+    }
+  };
+
+  const handleSignOut = async () => {
+    await supabase.auth.signOut();
+    navigate('/auth');
+  };
+
   return (
     <div className="w-64 h-screen sidebar-container border-r border-sidebar-border flex flex-col">
       {/* Logo Section */}
@@ -76,20 +112,29 @@ export function AppSidebar({ activeView, onViewChange }: SidebarProps) {
       </nav>
 
       {/* User Profile */}
-      <div className="p-3 sm:p-4 border-t border-sidebar-border">
+      <div className="p-3 sm:p-4 border-t border-sidebar-border space-y-2">
         <div className="flex items-center gap-2 sm:gap-3 p-2 sm:p-3 rounded-lg sidebar-user-profile">
-          <div className="h-6 w-6 sm:h-8 sm:w-8 bg-sidebar-primary rounded-full flex items-center justify-center">
-            <User className="h-3 w-3 sm:h-4 sm:w-4 text-sidebar-primary-foreground" />
-          </div>
+          <Avatar className="h-6 w-6 sm:h-8 sm:w-8">
+            <AvatarImage src={profile?.avatar_url || undefined} />
+            <AvatarFallback className="bg-sidebar-primary text-sidebar-primary-foreground">
+              <User className="h-3 w-3 sm:h-4 sm:w-4" />
+            </AvatarFallback>
+          </Avatar>
           <div className="flex-1 min-w-0">
             <p className="text-xs sm:text-sm font-medium text-white truncate">
-              John Doe
-            </p>
-            <p className="text-xs text-white/70 truncate">
-              Logistics Manager
+              {profile?.full_name || 'User'}
             </p>
           </div>
         </div>
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={handleSignOut}
+          className="w-full justify-start gap-2 text-white border-white/20 hover:bg-white/10"
+        >
+          <LogOut className="h-4 w-4" />
+          Sign Out
+        </Button>
       </div>
     </div>
   );
